@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 900px;
+    overflow: hidden;
+}
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1650px;
+    margin: 0 auto;
+    padding: 0 7%;
+}
+.logo{
+    width: 50%;
+}
+header{
+    padding: 20px 0;
+}
+.menu{
+    width: 50%;
+    text-align: right;
+}
+a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 40px;
+    color: black;
+}
+.texto{
+    position: relative;
+    top: 150px;
+    left: 120px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 700px;
+    font-weight: 100;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-size: 60px;
+}
+span{
+    font-weight: 900;
+    font-size: 75px;
+    color: #036634ea;
+}
+.verdinho{
+    background-color:  #036634ea;
+    width: 700px;
+    height: 750px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-top-left-radius: 100%;
+}
+.cafezinho{
+    position: relative;
+    left: 50px;
+}
+.social-media{
+    position: absolute;
+    top: 200px;
+    right: 35px;
+}
+.social-media img{
+    display: block;
+    margin-bottom: 50px;
+}
+.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+section button{
+    background-color: #036634ea;
+    height: 35px;
+    width: 130px;
+    border-radius: 30px;
+    position: relative;
+    left: 130px;
+    top: 160px;
+    cursor: pointer;
+}
+section button a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(255, 255, 255, 0.856);
+    margin: 10px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
