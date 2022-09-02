@@ -1,0 +1,1 @@
+Esse systema desenvolvido em Python é capaz de registrar reservas de passagens de ônibus da "empresa". O sistema valida as reservas de assentos, onde quando um assento já está reservado, não é possível que outra pessoa reserve o mesmo lugar
