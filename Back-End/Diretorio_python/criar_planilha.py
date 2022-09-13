@@ -1,3 +1,6 @@
+#diretorio da minha máquina
+
+
 import openpyxl
 
 book1 = openpyxl.Workbook()
@@ -6,15 +9,11 @@ book2 = openpyxl.load_workbook('dados.xlsx')
 
 funcionarios = book1['Sheet']
 
-tabelinha = book2['Planilha']
+tabelinha = book2['Planilha1']
 
 for rows in tabelinha.iter_rows(min_row=2):
     for cell in rows:
         print(cell.value)
-
-
-
-
 
 #
 # funcionarios.append(["EMPRESA", "R.E", "NOME", "STATUS", "DOC P"])
